@@ -33,13 +33,17 @@
     }
 
     #course{
-    flex-direction: column;
-    width: 50vw;
-    margin-left: 25vw;
+    /* flex-direction: column; */
+    /* width: 50vw;
+    margin-left: 25vw; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
     }
 
     #course img{
-        width: 75%;
+        width: 75vw;
     }
 
     .center{
@@ -47,13 +51,22 @@
     }
     
     #infrastructure{
-        flex-direction: column;
+        /* flex-direction: column;
         width: 50vw;
-        margin-left: 25vw;
+        margin-left: 25vw; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
     }
 
     #infrastructure img{
-        width: 75%;
+        width: 75vw;
+    }
+
+    .testimonial-col{
+        display: flex;
+        flex-direction: column;
     }
 
 
