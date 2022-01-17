@@ -134,6 +134,7 @@ html{
 
 #course{
     display: flex;
+    
 }
 
 #course .box1{
@@ -230,7 +231,8 @@ h1 .infrastructure{
 }
 
 .testimonial-col img{
-    height: 65px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 25px;
@@ -238,7 +240,7 @@ h1 .infrastructure{
 }
 
 .testimonial-col p{
-    padding: 20px;
+    padding: 15px;
 }
 
 .material-icons{
